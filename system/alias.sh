@@ -9,9 +9,10 @@ alias setRsaKey="ssh-keygen -t rsa"
 alias getRsaKey="cat ~/.ssh/id_rsa.pub"
 alias getTime="uptime | awk '{print $3}'"
 
+
 ### EDIT ###
 alias editCrons="EDITOR=gedit crontab -e"
-alias editAlias="sudo geany $HOME/.scripts/./alias.sh"
+alias editAlias="sudo geany $HOME/.scripts/system/./alias.sh"
 alias editZSHrc="sudo geany $HOME/.zshrc"
 alias editBASHrc="sudo geany $HOME/.bashrc"
 alias editHTOPrc="sudo geany $HOME.config/htop/htoprc"
@@ -36,3 +37,12 @@ alias getRelease="cat /etc/fedora-release"
 alias getOsVersion="cat /proc/version | awk '{print $3}'"
 alias getKernelVersion="rpm -qa kernel |sort -V |tail -n 1"
 alias goYumRepos="cd /etc/yum.repos.d/"
+
+
+### SSH ###
+
+
+### GIT ###
+
+
+### LOG ###

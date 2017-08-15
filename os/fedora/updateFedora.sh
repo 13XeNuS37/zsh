@@ -1,7 +1,8 @@
 #!/bin/zsh
 # 
+# By 13XeNuS37
+#
 # Fedora Updater
-# By Peter
 
 # INIT
 start=$(date +'%s')
