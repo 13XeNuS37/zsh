@@ -1,4 +1,4 @@
-#!bin/sh
+#!bin/zsh
 #
 #
 # By 13XeNuS37
